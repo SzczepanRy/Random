@@ -9,7 +9,7 @@ console.log(i);
 var x = 420;
 console.log (x);
 
-document.getElementById("nWord").innerHTML = "NoNoWord";
+// document.getElementById("nWord").innerHTML = "NoNoWord";
 
 //above is so cool
 
