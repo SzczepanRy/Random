@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+header , nav , section,footer , aside{
+    margin-top: 10px;
+    background-color:gray;
+    color:white;
+    font-size:20px;
+    width: 100%;
+    text-align: center;
+} 
+.main-div{
+    margin-left: 10px;
+    width:100%;
+}
+section{
+width:100%;
+}
+article{
+    width: 100%;
+}
+.second-div{
+    display: flex;
+}
+
+
+aside{
+    margin-left: 10px;
+    width:30%;
+}
+.aside{
+    height: 100%;
+    padding-bottom: -10px;
+    width:300px;
+}
