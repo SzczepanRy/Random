@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+}
+.main-div{
+    width: 100%;
+    margin: 10px 10px;
+}
+nav ,footer ,header  ,section{
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+
+    text-align: center ;
+    width: 100%;
+    
+    
+}
+article{
+    display: flex;
+    
+}
+section{
+    margin-inline: 5px;
+}
+nav{
+    margin-top: 0px;
+}
+
+aside{
+    margin: 10px 10px;
+    background-color: grey;
+    color: white;
+    text-align: center ;
+    width: 20%;
+}
