@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav , header , section ,footer{
+    margin-top: 10px;
+    color:white;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    
+
+}
+aside{
+    margin-top: 10px;
+    color:white;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    
+}
+.third-div{
+    margin-left: 10px;
+    width: 100%;
+}
+.main-div{
+    height: 100%;
+    display: flex;
+    
+}
+.second-div{
+    display: flex;
+}
+.aside2{
+  
+    width: 20%;
+    margin-left: 10px;
+}
+article{
+    
+    width:100%;
+}
+.aside1{
+    
+    width: 20%;
+    
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+}
