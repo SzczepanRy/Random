@@ -1,0 +1,2 @@
+react-router-dom naucz sie
+cors naucz sie
