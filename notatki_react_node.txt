@@ -1,2 +1,8 @@
 react-router-dom naucz sie
 cors naucz sie
+mogo db local
+mongod  --dbpath ./data
+
+C:\Program Files\MongoDB\Server\
+
+
