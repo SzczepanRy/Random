@@ -1,0 +1,10 @@
+lesen	 las		 gelesen - czytać
+rufen	 rief 		gerufen - wołać wzywaś
+schlafen  schlief  	geschlafen -apać
+schreiben schrieb       geschreiben -pisać
+nehmen 	  nahm     	genommen - brac 
+sehen 	  sah 		gesehen-patrzeć
+treffen   traf 		getroffen -spotykać
+trinken    trank 	getrunken -pić
+vergessen  vergaB 	vergesen - zapominać
+verlieren  verlor 	verloren -zgubiś
