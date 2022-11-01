@@ -40,6 +40,7 @@ p{
 }
 .container2{
     padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     background-color: white;
     flex-direction: column;
