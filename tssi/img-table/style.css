@@ -11,9 +11,7 @@ body{
     height: 100vh;
     
 }
-p{
-    padding-bottom:10px;
-}
+
 
 h1{
     width: 100%;
@@ -32,6 +30,8 @@ p{
     width: 100%;
     display: flex;
     align-items: start;
+    padding-top: 5px;
+    padding-bottom:10px;
 }
 .container{
     height: 100%;
@@ -45,6 +45,7 @@ p{
     background-color: white;
     flex-direction: column;
     align-items: center;
+    
 }
 .images{
    
