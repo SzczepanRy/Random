@@ -1,0 +1,38 @@
+*{margin: 0;padding:0; box-sizing: border-box;}
+nav{
+    display: flex;
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cont *{
+    margin-bottom: 15px;
+}
+.btn{
+    text-align: center;
+    width:15%;
+    border: 1px solid black;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.b{
+    margin-right: 5%;
+}
+.navi{
+    width:100%;
+    text-align: center;
+    border: 1px solid black;
+}
