@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const def_val = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reprehenderit, vitae impedit sunt, animi doloribus ad odio voluptate saepe earum dolor provident debitis ea. Esse quisquam consequuntur explicabo adipisci similique."
+        const func = ()=>{
+           
+            let val = document.getElementById("texta").value
+            if(val != def_val && document.getElementById("accept").checked){
+                console.log(val)
+                document.getElementById("wys").disabled = ""
+            }
+        }
+
+        const change = ()=>{
+            let val = document.getElementById("texta").value = def_val
+        }
+    </script>
+</head>
+<body>
+    
+    <form action="">
+        <h2>Formularz kontaktowy</h2>
+        <label for="nazw">Podaj swoje nazwisko i imię: </label>
+        <input type="text" id="nazw"/>
+        <hr>
+        <input id="dane" type="checkbox"/>
+        <label for="dane">Zgadzam sie przetwarzanie moich danych osobowych</label>
+        
+        <hr>
+        <input id="wysył" type="checkbox"/>
+        <label for="wysył">Zgadzam sie na ysyłanie materiałów reklamowych</label>
+        
+        <hr>
+        <input id="vip" type="checkbox"/>
+        <label for="cip">Posiadam karte VIP</label>
+        
+        <hr>
+        <div class="area">
+            <textarea id="texta"  >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reprehenderit, vitae impedit sunt, animi doloribus ad odio voluptate saepe earum dolor provident debitis ea. Esse quisquam consequuntur explicabo adipisci similique.</textarea>
+            <br>
+            <div class="btn">
+                <input onchange="func()" id="accept" type="checkbox">
+                <label  for="accept">Akceptuje regulamin</label>
+            </div>
+
+        </div>
+
+        <hr>
+        <div class="btns">
+            <button  id="wys" disabled="disabled">Wysyłam</button>
+            <button id="res" onclick="change()"> Reset</button>
+        </div>
+        
+
+    </form>
+    <form action="">
+        <label for="file"> Wyślij następujący plik </label>
+        <input id="file" type="file"/>
+        <br>
+        <div class="b">
+            <button id="wysyłam">wysyłam</button>
+        </div>
+        
+    </form>
+    <form action="">
+        <label for="count"> Wprowadź liczby z przedziału od 10 do 100. </label>
+        <br>
+        <input class="num" type="number"/>
+        
+        <button>wyślij</button>
+        
+        
+    </form>
+    
+</body>
+</html>

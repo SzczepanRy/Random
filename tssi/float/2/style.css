@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.content{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: white;
+}
+.head{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color:goldenrod;
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+
+    
+}
+.nav{
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside{
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: cadetblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2{
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-color: coral;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fo1{
+    height: 100%;
+    width:67%;
+    background-color: burlywood;
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fo2{
+    float: right;
+    height: 100%;
+    width:33%;
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
